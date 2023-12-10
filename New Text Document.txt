@@ -1,0 +1,60 @@
+
+
+CREATE TABLE test_info (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255)
+);
+*****************************************************
+CREATE TABLE network_info (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255),
+    pc_model VARCHAR(255),
+    serial_no VARCHAR(255),
+    ram VARCHAR(50),
+    ssd VARCHAR(50),
+    hdd VARCHAR(50),
+    ip VARCHAR(50),
+    internet_access VARCHAR(10),
+    pc_name VARCHAR(100),
+    domain_name VARCHAR(100),
+    mail_ip VARCHAR(50),
+    ip_telephone VARCHAR(50),
+    keyboard VARCHAR(50),
+    mouse VARCHAR(50),
+    monitor VARCHAR(100),
+    ups VARCHAR(50),
+    windows_version VARCHAR(50),
+    department VARCHAR(100),
+    asset_code VARCHAR(50),
+    emp_id VARCHAR(8)
+);
+
+
+******************************
+CREATE TABLE asset_info (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255),
+    pc_model VARCHAR(255),
+    serial_no VARCHAR(255),
+    ram VARCHAR(50),
+    ssd VARCHAR(50),
+    hdd VARCHAR(50),
+    ip VARCHAR(50),
+    internet_access VARCHAR(10),
+    pc_name VARCHAR(100),
+    domain_name VARCHAR(100),
+    mail_id VARCHAR(50),
+    ip_phone VARCHAR(50),
+    keyboard VARCHAR(50),
+    mouse VARCHAR(50),
+    monitor VARCHAR(100),
+    ups VARCHAR(50),
+    windows_version VARCHAR(50),
+    department VARCHAR(100),
+    asset_code VARCHAR(50),
+    emp_id VARCHAR(8)
+);
+
+
+
+
